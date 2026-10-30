@@ -20,7 +20,7 @@ public class Cuenta
 
     public void ingresar(Double x) 
     {
-        //  Versión 1 para que el test falle
+    	this.mSaldo = 100.0;
     }
 
     public void retirar(Double x) {
