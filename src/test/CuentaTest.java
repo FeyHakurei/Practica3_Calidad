@@ -18,4 +18,10 @@ public class CuentaTest {
         cuenta.ingresar(100.0);
         assertEquals(100.0, cuenta.getSaldo());
     }
+    
+    @Test
+    public void testRetirar() {
+        cuenta.retirar(100.0);
+        assertEquals(-100.0, cuenta.getSaldo());
+    }
 }
